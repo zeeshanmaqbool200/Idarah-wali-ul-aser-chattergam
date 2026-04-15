@@ -1,0 +1,9 @@
+{
+  "name": "Idarah Wali Ul Aser",
+  "description": "Official management portal for Idarah Wali Ul Aser and Maktab Wali Ul Aser, Chattergam Kashmir. Managing Tulab records, fees, attendance, and academic schedules.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
