@@ -25,7 +25,7 @@ const defaultSettings: InstituteSettings = {
   address: 'Banpora Chattergam 191113, Kashmir',
   phone: '+91 7006123456',
   email: 'idarahwaliulaser@gmail.com',
-  logoUrl: 'https://idarahwaliulaser.netlify.app/img/logo.png',
+  logoUrl: './images/logo.png',
   primaryColor: '#0d9488',
   secondaryColor: '#0f766e',
   website: 'idarahwaliulaser.netlify.app',
