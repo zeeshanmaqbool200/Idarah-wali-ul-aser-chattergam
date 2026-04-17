@@ -35,7 +35,7 @@ export default function Layout({ children, user, onLogout }: LayoutProps) {
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [instituteName, setInstituteName] = useState('Maktab Wali Ul Aser');
-  const [logoUrl, setLogoUrl] = useState('https://idarahwaliulaser.netlify.app/img/logo.png');
+  const [logoUrl, setLogoUrl] = useState('../images/logo.png');
   const [bottomNavVisible, setBottomNavVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const mainRef = React.useRef<HTMLDivElement>(null);

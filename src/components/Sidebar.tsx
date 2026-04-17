@@ -25,7 +25,7 @@ interface SidebarProps {
   logoUrl?: string;
 }
 
-export default function Sidebar({ role, open, onToggle, onLogout, unreadNotifications = 0, instituteName = 'MAKTAB WALI UL ASER', logoUrl = 'https://idarahwaliulaser.netlify.app/img/logo.png' }: SidebarProps) {
+export default function Sidebar({ role, open, onToggle, onLogout, unreadNotifications = 0, instituteName = 'MAKTAB WALI UL ASER', logoUrl = '../images/logo.png' }: SidebarProps) {
   const navigate = useNavigate();
   const location = useLocation();
   const theme = useTheme();
